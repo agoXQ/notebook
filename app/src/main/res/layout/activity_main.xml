@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="记事本"
+        android:background="#00BCD4"
+        android:id="@+id/tex1"
+        android:textColor="#05091C"
+        android:textSize="20dp"
+        android:gravity="center"></TextView>
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/list"
+        android:layout_below="@+id/tex1"
+        android:layout_height="match_parent"></ListView>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/add"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/add"></ImageView>
+</RelativeLayout>
